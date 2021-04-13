@@ -1,0 +1,159 @@
+/* Google Font Import Here */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass {
+    min-height: 80vh;
+    width: 60%;
+    background: #fff;
+    border-radius: 20px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    flex-direction: row;
+}
+
+.circle1,
+.circle2 {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: #fff;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1));
+}
+
+.circle1 {
+    position: absolute;
+    top: 3%;
+    right: 12%;
+}
+
+.circle2 {
+    position: absolute;
+    bottom: 3%;
+    left: 12%;
+}
+
+
+/* Content */
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 20px;
+}
+
+
+.user {}
+
+.user img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.user h2 {
+    font-size: 18px;
+}
+
+.user p {
+    font-size: 14px;
+}
+
+.links {}
+
+.link {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+    /* padding: 1rem 1rem; */
+
+}
+
+.link img {
+    width: 27px;
+}
+
+.link h2 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0rem 1.2rem;
+}
+
+.pro {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.pro h2 {
+    font-size: 17px;
+    flex: 2;
+}
+
+.pro img {
+    width: 0px;
+    flex: 1;
+}
+
+.games {
+    flex: 2;
+}
+
+.status {}
+
+.status h1 {}
+
+.status input {}
+
+.cards {}
+
+.card {}
+
+.card img {
+    width: 50px;
+}
+
+.card-info {}
+
+.card-info h3 {}
+
+.card-info p {}
+
+.progress-bar {}
+
+.percentage {}
